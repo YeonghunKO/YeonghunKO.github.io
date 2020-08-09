@@ -1,12 +1,14 @@
 ---
-layout: post
-author: John Doe
-title: How to install devlopr-jekyll theme
-date: '2020-08-06T09:52:20.613Z'
-category: github
-summary: installation of the theme
-keywords: install, theme
-permalink: /blog/installation
+title:  "How to install devlopr-jekyll theme"
+excerpt: "installation of the theme"
+
+categories:
+  - github
+tags:
+  - install
+  - theme
+  - 
+last_modified_at: 2020-08-07T08:06:00-05:00
 ---
 
 ## Getting Started - How to use “devlopr-jekyll” theme

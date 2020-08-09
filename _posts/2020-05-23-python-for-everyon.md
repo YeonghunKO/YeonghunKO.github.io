@@ -1,14 +1,17 @@
 ---
-layout: post
-author: Yeonghun
-title: Python for everyone - week1
-date: '2020-05-23T09:52:20.613Z'
-header:
-  image: /assets/img/python.jpg
-summary: 파이썬의 기초
-keywords: python, programming
-permalink: /blog/python-for-everyone-week1
+title:  "Python for everyone - week1"
+excerpt: "Python for everyone - week1"
+
+categories:
+  - python
+tags:
+  - python
+  - programming
+  - 
+last_modified_at: 2020-08-07T08:06:00-05:00
 ---
+
+
 ## Table of contents
 - [week1](#week1)
   * [1.1 - Why programm](#1.1 - Why programm)

@@ -1,13 +1,14 @@
 ---
-layout: post
-title:  style guide
-summary: styleguide
-author: John Doe
-date: '2020-08-06 11:35:23 +0530'
-category: github
-keywords: styleguide
-permalink: /blog/styleguide
+title:  "style guide"
+excerpt: "style guide"
+
+categories:
+  - github
+tags:
+  - style guide  
+last_modified_at: 2020-08-07T08:06:00-05:00
 ---
+
 
 <h1 class="text-center"> devlopr jekyll - Styleguide </h1>
 

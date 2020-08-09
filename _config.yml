@@ -24,8 +24,8 @@ description              : "모든것을 흡수하려는 마음가짐"
 url                      : "YeonghunKO.github.io"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   : "/assets/img/cover.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : "/assets/img/tourist.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -42,7 +42,7 @@ comments:
     colorscheme          : # "light" (default), "dark"
   utterances:
     theme                : "github-light"
-    issue_term           :  "" (default)
+    issue_term           :  #"" (default)
   staticman:
     branch               : # "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
