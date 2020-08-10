@@ -12,7 +12,7 @@ last_modified_at: 2020-08-07T08:06:00-05:00
 header:
   image: /assets/img/python.jpg
   image_description: "python basic"
-read_time: true
+
 toc: true
 toc_label: "목차"
 toc_icon: "cog"
