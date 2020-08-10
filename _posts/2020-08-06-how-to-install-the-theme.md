@@ -21,21 +21,21 @@ If you aren’t familiar with Jekyll yet, you should know that it is a static si
 
 >  **Step 1.**  Fork the repo - [click here](https://github.com/sujaykundu777/devlopr-jekyll/fork)
 
-![Devlopr Jekyll Repo](https://yeonghunko.github.io/assets/img/fork1.png){:class="img-fluid"}
+![Devlopr Jekyll Repo](https://yeonghunko.github.io/assets/img/fork1.PNG){:class="img-fluid"}
 
 > **Step 2.** Use **your-github-username.github.io** as the new repo  ( Replace your-github-username with yours). Remember if you use the name other than your-github-username.github.io , your blog will be built using gh-pages branch.
 
-![Devlopr Jekyll Repo](https://yeonghunko.github.io/assets/img/fork2.png){:class="img-fluid"}
+![Devlopr Jekyll Repo](https://yeonghunko.github.io/assets/img/fork2.PNG){:class="img-fluid"}
 
-![Devlopr Jekyll Repo](https://yeonghunko.github.io/assets/img/fork3.png){:class="img-fluid"}
+![Devlopr Jekyll Repo](https://yeonghunko.github.io/assets/img/fork3.PNG){:class="img-fluid"}
 
 > **Step 3.** Clone the new repo locally to make changes :
 
-![Devlopr Jekyll Repo](https://yeonghunko.github.io/assets/img/fork31.png){:class="img-fluid"}
+![Devlopr Jekyll Repo](https://yeonghunko.github.io/assets/img/fork31.PNG){:class="img-fluid"}
 
-![Devlopr Jekyll Repo](https://yeonghunko.github.io/assets/img/fork32.png){:class="img-fluid"}
+![Devlopr Jekyll Repo](https://yeonghunko.github.io/assets/img/fork32.PNG){:class="img-fluid"}
 
-![Devlopr Jekyll Repo](https://yeonghunko.github.io/assets/img/fork33.png){:class="img-fluid"}
+![Devlopr Jekyll Repo](https://yeonghunko.github.io/assets/img/fork33.PNG){:class="img-fluid"}
 
 ```bash
  $ git clone https://github.com/yourusername/yourusername.github.io
@@ -50,7 +50,7 @@ If you aren’t familiar with Jekyll yet, you should know that it is a static si
 - _includes - You can replace the contents of the files with your data. (contains widgets)
 - _assets/img - Add all your images here
 
-![Devlopr Jekyll Repo](https://yeonghunko.github.io/assets/img/fork34.png){:class="img-fluid"}
+![Devlopr Jekyll Repo](https://yeonghunko.github.io/assets/img/fork34.PNG){:class="img-fluid"}
 
 > **Step 5** - Install the development requirements:
 
@@ -109,7 +109,7 @@ $ jekyll serve
 
 Visit [http://localhost:4000](http://localhost:4000) for development server
 
-![Devlopr Jekyll Repo](/assets/img/fork4.png){:class="img-fluid"}
+![Devlopr Jekyll Repo](/assets/img/fork4.PNG){:class="img-fluid"}
 
 ![Devlopr Jekyll Repo](https://yeonghunko.github.io/assets/img/fork41.PNG){:class="img-fluid"}
 
@@ -166,11 +166,11 @@ Once happy with your blog changes. Push your changes to master branch.
 
 Visit your Github Repo settings ! Enable master branch as Github Pages Branch :
 
-![Devlopr Jekyll Repo](https://yeonghunko.github.io/assets/img/fork6.png){:class="img-fluid"}
+![Devlopr Jekyll Repo](https://yeonghunko.github.io/assets/img/fork6.PNG){:class="img-fluid"}
 
 > **Step 9.** Deploy your Blog :
 
-![Devlopr Jekyll Repo](https://yeonghunko.github.io/assets/img/fork7.png){:class="img-fluid"}
+![Devlopr Jekyll Repo](https://yeonghunko.github.io/assets/img/fork7.PNG){:class="img-fluid"}
 
 > Congrats ! On your new shining Blog !
 

@@ -16,6 +16,7 @@ read_time: true
 toc: true
 toc_label: "목차"
 toc_icon: "cog"
+toc_sticky: true
 ---
 
 
