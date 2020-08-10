@@ -7,19 +7,67 @@ categories:
 tags:
   - style guide  
 last_modified_at: 2020-08-07T08:06:00-05:00
----
 
+toc: true
+toc_label: "목차"
+toc_icon: "cog"
+toc_sticky: true
+---
+<img src="YeonghunKO.github.io/assets/img/styleguide.PNG" class="img-fluid">
+
+# Heading levels
+
+> This is a fixture to test heading levels
+
+<!-- toc -->
+
+## Heading
+
+This is an h1 heading
+
+### Sub-heading
+
+This is an h2 heading
+
+#### Sub-sub-heading
+
+This is an h3 heading
+
+## Heading
+
+This is an h1 heading
+
+### Sub-heading
+
+This is an h2 heading
+
+#### Sub-sub-heading
+
+This is an h3 heading
+
+## Heading
+
+This is an h1 heading
+
+### Sub-heading
+
+This is an h2 heading
+
+#### Sub-sub-heading
+
+This is an h3 heading
 
 <h1 class="text-center"> devlopr jekyll - Styleguide </h1>
 
 <hr />
 
- <img src="/assets/img/styleguide.png" class="img-fluid">
+ 
 
 <p> Lets try the different text styles  <b> Bold </b> , <strong> Strong </strong>, <em> Emphasis </em>, <i> Italic </i> </p>
 
 
 <p> Now, lets try different heading styles : </p>
+
 
 <h1> Hello in h1 ! </h1>
 <h2> Hello in h2 ! </h2>

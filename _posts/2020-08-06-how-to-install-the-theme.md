@@ -9,6 +9,11 @@ tags:
   - theme
   - 
 last_modified_at: 2020-08-07T08:06:00-05:00
+
+toc: true
+toc_label: "목차"
+toc_icon: "cog"
+toc_sticky: true
 ---
 
 ## Getting Started - How to use “devlopr-jekyll” theme
