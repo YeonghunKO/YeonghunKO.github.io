@@ -1,6 +1,6 @@
 ---
-title:  "style guide"
-excerpt: "style guide"
+title:  "깃헙포스트 어떻게 작성하는지 예시2"
+excerpt: "여러가지 스타일을 보여주고 있다"
 
 categories:
   - github
