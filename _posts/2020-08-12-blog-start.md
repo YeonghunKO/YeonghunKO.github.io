@@ -10,7 +10,7 @@ tags:
   - ruby
   - minimal mistakes
   - 깃헙데스크톱
-last_modified_at: 2020-08-11T08:06:00-05:00
+last_modified_at: 2020-08-12T08:06:00-05:00
 
 toc: true
 toc_label: "목차"
