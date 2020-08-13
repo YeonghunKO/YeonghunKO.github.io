@@ -61,7 +61,35 @@ This is an h3 heading
 
 <hr />
 
- 
+# 이탈릭체, 굵은 글씨체, 줄바꿈(space버튼 2번)
+ _이탈릭에서 **여기만 굵은글씨** 다시 돌아옴_
+__굵은글씨로 시작해서*이탈릭으로 돌아왔다가* 다시 굵어짐__
+
+너의 이름은.  
+파아워어레인저! 
+==============
+
+# Blockquote
+
+> # this is h1!
+>  * list     
+>   `textbox`
+#list 뒤에 tab을 입력하니 hierarchy가 생김.
+
+# table
+
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
+# Tickbox
+
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+
+~~The world is flat.~~
 
 <p> Lets try the different text styles  <b> Bold </b> , <strong> Strong </strong>, <em> Emphasis </em>, <i> Italic </i> </p>
 

@@ -7,7 +7,7 @@ categories:
 tags:
   - utterances
   - 깃헙 댓글
-  - 
+  - toc
 last_modified_at: 2020-08-13T08:06:00-05:00
 
 toc: true
@@ -68,7 +68,7 @@ comments:
 
 <p>minimal mistakes는 toc기능도 이미 제공하고 있다.</p>
 
-<p>config파일 마지막에 default.value에 default 값으로 toc: true를 추가해주거나 글을 적을때 마다 YMFL 에 아래의 코드를 추가해주면 된다.</p>
+<p>config파일 마지막에 default.value에 default 값으로 toc: true를 추가해주거나 글을 적을때 마다 YFM에 아래의 코드를 추가해주면 된다.</p>
 
 ```bash
 # Defaults
@@ -93,8 +93,12 @@ defaults:
 toc: true #TOC 기능 활성화
 toc_label: "목차" #TOC 제목설정
 toc_icon: "cog" #TOC테마 설정
-toc_sticky: true #스크롤을 내릴때 TOC가 오른쪽에 붙어서 따라옴. 오른쪽고정
+toc_sticky: true #스크롤을 내릴때 TOC가 오른쪽에 붙어서 따라옴. 오른쪽 고정
 ---
 ```
 
-<p></p>
+<p>그럼 옆에 이런식으로 목차가 뜨고 스크롤을 내릴 때 그 위치에 있는 링크가 하이라이트 된다.</p>
+
+![toc]](https://yeonghunko.github.io/assets/img/github-blog-start/toc.png){:class="img-fluid"}
+
+<p>그럼 다음엔 카테고리, 태그별로 글이 정리되는 기능을 알아보자.</p>
