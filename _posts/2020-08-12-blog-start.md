@@ -158,7 +158,7 @@ author:
 
 <code class="highlighter-rouge">bundle exec jekyll server</code> 
 
-<p>코드를 입력한다음 웹페이지에 code class="highlighter-rouge">localhost:4000</code> 을 입력해서 변경사항을 확인하자. </p>
+<p>코드를 입력한다음 웹페이지에 <code class="highlighter-rouge">localhost:4000</code> 을 입력해서 변경사항을 확인하자. </p>
 
 <p>변경사항이 확인되었으면 이제 진짜로 공식웹사이트에 변경사항을 등록해야한다. 이때 깃헙데스크톱을 통해 깃푸시를 하는 것이다.</p>
 

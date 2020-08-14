@@ -99,6 +99,6 @@ toc_sticky: true #스크롤을 내릴때 TOC가 오른쪽에 붙어서 따라옴
 
 <p>그럼 옆에 이런식으로 목차가 뜨고 스크롤을 내릴 때 그 위치에 있는 링크가 하이라이트 된다.</p>
 
-![toc]](https://yeonghunko.github.io/assets/img/github-blog-start/toc.png){:class="img-fluid"}
+![toc](https://yeonghunko.github.io/assets/img/github-blog-start/toc.png){:class="img-fluid"}
 
 <p>그럼 다음엔 카테고리, 태그별로 글이 정리되는 기능을 알아보자.</p>
