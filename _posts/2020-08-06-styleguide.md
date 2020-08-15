@@ -88,6 +88,13 @@ This is an h2 heading
 # 세 번째
 This is an h2 heading
 
+
+- [Coursera python](#coursera-python) #괄호안에를 소문자로 해야적용됨. 대문자로 하면 링크가 작동 하지 않음.
+
+# coursera python
+
+그냥 시범삼아.
+
 <h1 class="text-center"> devlopr jekyll - Styleguide </h1>
 
 <hr />

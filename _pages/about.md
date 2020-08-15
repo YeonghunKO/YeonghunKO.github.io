@@ -3,11 +3,18 @@ title: ""
 permalink: /about/
 layout: single
 ---
+<style>
+p.a {
+  font-family: "Times New Roman", Times, serif;
+}
+</style>
 
-<h1 class="text-center">저는 말이죠?</h1>
+ <h1 class="text-center"><font color="red" size=7><p class="a">저는 말이죠?</p></font></h1>
+
+
 
 ![awesome](https://yeonghunko.github.io/assets/img/awesome.JPG){:class="img-fluid"}
-> 노르웨이
+
 
 - 호기심이 굉장히 많습니다. 위의 사진은 노르웨이 여행때 찍은 사진입니다. 
 
@@ -28,16 +35,19 @@ layout: single
 
 - 사람들과 소통하는 것을 무척 중요하게 생각합니다. 독단에 빠지지 않게 해주기 때문입니다.
 
-<h1 class="text-center">프로젝트</h1>
+<br/>
 
-- 2020.07: [Coursera python](#Coursera-python)
-- [두 번째](#두-번째)
-- [세 번째](#세-번째)
-- [네 번째](#네-번째)
-- [다섯 번째](#다섯-번째)
+ <h1 class="text-center"><font color="red" size=7><i><p class="a">프로젝트</p></i></font></h1>
 
 
-## Coursera-python
+- 2020.07: [<font color="orange">Coursera python</font>](#coursera-python)
+<!-- - [두 번째](#두-번째) -->
+<!-- - [세 번째](#세-번째) -->
+<!-- - [네 번째](#네-번째) -->
+<!-- - [다섯 번째](#다섯-번째) -->
+
+
+# _<font color="orange">coursera-python</font>_
 
 1. 소감:  파이썬을 처음 배운 날. coursear에서 진행했기 때문에 프로그래밍에 특화된 영어도 배울 수 있어서 매우 좋았다. 
 
