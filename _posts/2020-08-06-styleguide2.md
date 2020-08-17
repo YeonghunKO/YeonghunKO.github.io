@@ -5,8 +5,7 @@ excerpt: "링크,영상,sns포스트 가져오기,코드올리기 등등"
 categories:
   - github
 tags:
-  - install
-  - theme
+  - style guide 
   - 
 last_modified_at: 2020-08-07T08:06:00-05:00
 

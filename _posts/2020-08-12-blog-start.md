@@ -6,10 +6,8 @@ categories:
   - github
 tags:
   - 깃헙블로그
-  - jekyll
   - ruby
-  - minimal mistakes
-  - 깃헙데스크톱
+  - jekyll
 last_modified_at: 2020-08-12T08:06:00-05:00
 
 toc: true

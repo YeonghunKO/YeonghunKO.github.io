@@ -6,8 +6,8 @@ categories:
   - github
 tags:
   - 마크다운
-  - 깃헙블로그 글쓰기
-  - YFM
+  - 깃헙블로그
+  - 
 last_modified_at: 2020-08-13T10:06:00-05:00
 
 toc: true

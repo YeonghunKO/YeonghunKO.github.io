@@ -6,7 +6,6 @@ categories:
   - github
 tags:
   - utterances
-  - 깃헙 댓글
   - toc
 last_modified_at: 2020-08-13T08:06:00-05:00
 
