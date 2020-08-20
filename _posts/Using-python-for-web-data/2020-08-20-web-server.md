@@ -1,0 +1,72 @@
+---
+title:  "Python for everyone - week 3"
+excerpt: "Python for everyone - week 3"
+
+categories:
+  - python
+tags:
+  - 
+last_modified_at: 2020-08-20T09:06:00-05:00
+
+toc: true
+toc_label: "목차"
+toc_icon: "cog"
+toc_sticky: true
+---
+
+> 1. 나름대로 개념 정리.  
+> 2. 각 개념에 따른 예문 정리.  
+> 3. 그리고 중간중간 알아두면 좋겠다고 생각하는 프로그래밍 관련 영어 표현, 단어 정리
+
+
+# 1. Week 3
+
+![tcp](https://yeonghunko.github.io/assets/img/coursera-python/tcp.png){:class="img-fluid"}
+
+- There are two pieces of software running on two independent computers that are actually chatting, that's like they made a phone call. The difference is that computers do this hundreds of times a second, if not thousands of times a second, and we call this connection a socket. It's little thing that's built in the internet just long enough to have this conversation happening then it's thrown away.
+
+- The way sockets work is, if you want to establish a socket you say, "I would like to talk to this particular web server" All the web servers have names and numbers, and points
+
+
+![tcp2](https://yeonghunko.github.io/assets/img/coursera-python/tcp2.png){:class="img-fluid"}
+
+* 두개의 다른 컴퓨터에 깔려있는 소프트웨어가 서로 소통할때 socket이 생긴다. 그리고 웹서버에 각각 포트가 다 정해져 있다. 그럼 소프트웨어가 각 웹서버의 포트에 전화연결하듯 그 포트를 불러온다. 소프트웨어에서 보낸 request가 송신되면 통신이 시작되는 것이다.
+
+- These little ports, are different applications associate themselves with these ports when they start up. So the incoming email server might be on port 25 and it wakes up and it sits there waiting for something to happen.
+
+- Again, it's like an application on your computer is making a phone call, an application on this computer is picking the phone call up and you both say "Hello".
+
+
+
+![protocol](https://yeonghunko.github.io/assets/img/coursera-python/protocol.png){:class="img-fluid"}
+
+- Http:// says use the HTTP protocol, www-dr.com says go to this host and then /page 1.htm , says go get this document. In the 90's , you had to know all these things(protocol,host and document) separately , but then we just concatenated them all together and that became the Uniform Resource Locator or "Hey, type this URL into you browser"
+
+- What is a Protocol? : A set of rules that all parties follow so we can predict each other's behaviour. (ex) In USA, drive on the right hand side. In UK, Drive on the opposite.
+
+
+![web-server](https://yeonghunko.github.io/assets/img/coursera-python/web-server.png){:class="img-fluid"}
+
+* protocol은 전세계 사람들과 합의된 약속이다. http format을 쓴다는 것. 그리고 host와 document는 장소이다. 예전엔 이 세가지를 각각 알아야했는데 지금은 뭉뚱거려서 url 로 전송하면 된다. 우선 웹서버에서 링크를 누르면 웹서버로 연결한 다음  Request를 보내어 url을 GET 하게 된다. 그럼 웹서버는 요청을 받아들이고 그에 해당되는 대답을 하고 이 대답을 Browser에 띄어준다.
+
+- Getting data from the server: Each the user clicks on an anchor tag with an href= value to switch to  a new page, the browser makes a connection to the web server and issues a "GET" request - to GET the content of the page at the specified URL. The server returns the HTML document to the Browser which formats and displays the document to the user.
+			
+
+
+![socket1](https://yeonghunko.github.io/assets/img/coursera-python/socket1.png){:class="img-fluid"}
+
+
+
+![socket2](https://yeonghunko.github.io/assets/img/coursera-python/socket2.png){:class="img-fluid"}
+
+
+
+
+```python
+x = 2
+x = x + 2
+print(x)
+```
+
+
+
