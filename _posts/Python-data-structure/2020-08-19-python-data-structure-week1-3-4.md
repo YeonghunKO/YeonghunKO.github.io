@@ -5,7 +5,7 @@ excerpt: "Python data structure - week 1, 3, 4"
 categories:
   - python
 tags:
-  - while loop
+  -
   - 
 last_modified_at: 2020-08-19T09:06:00-05:00
 

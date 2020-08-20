@@ -5,7 +5,7 @@ excerpt: "Python for everyone - week 5"
 categories:
   - python
 tags:
-  - while loop
+  - 
   - 
 last_modified_at: 2020-08-20T09:06:00-05:00
 
