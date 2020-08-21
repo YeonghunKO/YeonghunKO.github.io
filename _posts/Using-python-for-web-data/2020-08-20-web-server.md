@@ -1,6 +1,6 @@
 ---
-title:  "Python for everyone - week 3"
-excerpt: "Python for everyone - week 3"
+title:  "Using python to access web data - week 3"
+excerpt: "Using python to access web data - week 3"
 
 categories:
   - python
