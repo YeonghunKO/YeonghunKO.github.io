@@ -55,18 +55,20 @@ toc_sticky: true
 
 ![socket1](https://yeonghunko.github.io/assets/img/coursera-python/socket1.png){:class="img-fluid"}
 
+- We send that and so that means that you sent something to the server , and the server recieves it. It goes and read some files, and does some stuff and then it's going to start sending data back. You can use a while loop now and receive is a method in the socket object once you've sent it , and it might take a couple of sends to get all the data. 
+
 
 
 ![socket2](https://yeonghunko.github.io/assets/img/coursera-python/socket2.png){:class="img-fluid"}
 
+서버에 메세지를 보낸다. 이때 socket 이라는 module을 사용한다. 그리고 보낼때 암호화 해서 서버가 알아들을 수 있게 해야한다. 그리고 그 서버에 닿은 메세지가 다시 답장을해 내가 요구한 정보를 주는데 그 정보를 받기 전에 다시 해독을 해야한다.  
+ 해독하고 나서는 반드시 close를 해야한다.
 
 
+- So we're going to just print this stuff out onto our screen, so we're going to receive up to 512 characters. If we get no data, that means end of file or end of transmission. So, we break out. 
 
-```python
-x = 2
-x = x + 2
-print(x)
-```
+- Then , if we did get data, we decode it , that's taking data from the outside world and interpreting what it means internally for us. So we're going to decode it. And so this loop is going to run a bunch of times until it hits enter file, and then we're going to close the socket , which tears all this stuff down because this actually takes up resources in your computer and far ends computer as well.
+
 
 
 
