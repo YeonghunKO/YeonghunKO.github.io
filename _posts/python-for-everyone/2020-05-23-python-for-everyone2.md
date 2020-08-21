@@ -1,5 +1,5 @@
 ---
-title:  "Python for everyone - week 3, week 4"
+title:  "Python for everyone - week 3, week 4(간단한 프로그램 만드는 법)"
 excerpt: "Python for everyone - week 3, week 4"
 
 categories:

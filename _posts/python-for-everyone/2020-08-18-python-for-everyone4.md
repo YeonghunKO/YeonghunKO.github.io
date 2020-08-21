@@ -1,5 +1,5 @@
 ---
-title:  "Python for everyone - week 7"
+title:  "Python for everyone - week 7(while,if,for 문의 조합)"
 excerpt: "Python for everyone - week 7"
 
 categories:

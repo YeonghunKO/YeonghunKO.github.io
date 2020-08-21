@@ -1,5 +1,5 @@
 ---
-title:  "Python for everyone - week1"
+title:  "Python for everyone - week1(프로그램의 개념)"
 excerpt: "Python for everyone - week1"
 
 categories:

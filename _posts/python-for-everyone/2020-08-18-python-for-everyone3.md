@@ -1,5 +1,5 @@
 ---
-title:  "Python for everyone - week 5, week 6"
+title:  "Python for everyone - week 5, week 6(if, try and except, def 함수)"
 excerpt: "Python for everyone - week 5, week 6"
 
 categories:
