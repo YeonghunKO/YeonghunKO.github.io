@@ -66,7 +66,7 @@ except:
 
 ```
 
-## 1-1. 영어문장 정리
+## 영어문장 정리
 
 ![if](https://yeonghunko.github.io/assets/img/coursera-python/if.png){:class="img-fluid"}
 
@@ -136,7 +136,7 @@ Hola
 
 여기서 lang 이 parameter이고 es 를 argument 라고 한다. 
 
-## 2-1. 영어문장 정리
+## 영어문장 정리
 
 ![def](https://yeonghunko.github.io/assets/img/coursera-python/def.png){:class="img-fluid"}
 

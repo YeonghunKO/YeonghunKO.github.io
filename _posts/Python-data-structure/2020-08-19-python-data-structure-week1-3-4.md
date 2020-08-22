@@ -62,7 +62,7 @@ average = sum(numlist)/len(numlist)
 print('Average:', average)
 ```
 
-## 1-1. 영어문장 정리
+## 영어문장 정리
 
 - So like I said, you can do interactive in Python or you can run a script.(Interactive: You type directly to python one line at a time and it responds.)  
 

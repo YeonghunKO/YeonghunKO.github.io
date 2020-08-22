@@ -48,7 +48,7 @@ print('Blast off')
 
 위의 while 문은 무슨 뜻이나면, n 이 0 보다 크다면 무조건 아래의 코드(n = n - 1) 를 반복한다. 그리고 0보다 크기 않으면 while 문을 빠져나와 그 밑의 코드 print 문을 실행하게 되는 것이다. 역시나 컴퓨터는 내가 적은 글을 차례대로 해석한다. 쌍방으로 소통하는 느낌이다.
 
-## 1-1. Week 3 영어문장 정리
+## Week 3 영어문장 정리
 
 - So like I said, you can do interactive in Python or you can run a script.(Interactive: You type directly to python one line at a time and it responds.)  
 
@@ -98,7 +98,7 @@ $ print(99 / 100)
 >> 0.99
 ```
 
-## 2-1. 영어문장 정리
+## 영어문장 정리
 
 - input 예시: And when Python comes running in here, it starts the input function, and the parameter to the input function is what's called a prompt.
 

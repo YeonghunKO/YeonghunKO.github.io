@@ -77,7 +77,7 @@ print('After', smallest)
 
 </br>
 
-# 1-1. 영어문장 정리
+## 영어문장 정리
 
 - repeated steps(while): And as long as n greater than 0 remains true, it will dive in and do this again. So it dives in and prints out 4, and then it subtracts to 3 and goes up(While loop
 

@@ -44,9 +44,7 @@ for k,v in purse.item() :
 >>>money 12
 >>>candy 3
 ```
-## 1-1. 영어문장 정리
-
-
+## 영어문장 정리
 
 ![dict](https://yeonghunko.github.io/assets/img/coursera-python/dict.png){:class="img-fluid"}
 
