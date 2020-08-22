@@ -20,19 +20,22 @@ toc_sticky: true
 > 3. 그리고 중간중간 알아두면 좋겠다고 생각하는 프로그래밍 관련 영어 표현, 단어 정리
 
 
-# 1. Week 3
+# 1. Week 3 
+
+## 변수 정하기
 
 프로그래밍은 내가 글을 적는 것이랑 비슷하다. 글과 다른점이 있다면, 컴퓨터가 그 글을 한 문장 한 문장 빠짐없이 정독하고 그것을 해석하여 결과를 창에 나타내는 것이다. 예를 들어보자.
 
 ```python
 x = 2
 x = x + 2
-print(x)
+printx)
 ```
 
 맨 처음엔 x = 2 라는 변수를 정한다고 글을 적었고. 그 밑에 다시 정보를 추가한다. x 에 2를 더한 값이 새로운 x 라고. 그럼 전에 x 는 overwritten 되어 사라지고 새로운 x 가 탄생한다.  
 그리고 x 값을 나타내라고 적는것이다. 이렇게 기존의 글로 이루어진 문장과는 완전 다른 형태의 방식으로 의미를 표현하게 된다. 굉장히 함축적이고 논리적이며 간결하다. 또한, 만국공통어라는 점이 차이다.   
 
+## while 문
 그 다음엔, While 문을 배웠다. While 문은 들여쓰기 된 코드가 계속 반복되는 코드이다. 그리고 어떤 조건을 달게 되면 그 조건이 참을 유지하는 한 계속 들여쓰기 된 코드를 반복한다. 
 
 ```python
@@ -69,7 +72,9 @@ print('Blast off')
 
 - This second paragraph says oh, as we read through the file, create a histogram that maps the number of words to the frequency of the words and each time you see a word, update the histogram so that we have a running total of all of the words, using a thing that we'll learn later called dictionaries.(위의 코드는 어떤 글이 적힌 파일을 입력하고 그 파일안에서 가장 많이 언급된 단어를 찾아내는 코드인데 나중에 다 이해하게 될 것이므로 걱정하지 말자.  그냥 파이썬을 통해 이러한 문장을 결합하여 이러한 기능을 가능하다는 것 정도만 알고 있으면 된다)
 
-# 2. Week 4
+# 2. Week 4 
+
+## input
 
 input 기능을 배웠다. 말 그대로 어떤 정보를 직접 입력하게 하는 기능이다. 
 
@@ -79,6 +84,8 @@ print('Welcome', nam)
 ```
 
 'Who are you?' 라는 질문이 나오고 그때 내가 정보를 입력하면 'Welcome input 결과' 가 나온다.  
+
+## 계산 기능
 
 그 다음은 계산기능이다. 실제 파이썬은 간단한 계산기능을 수행 할 수 있다. 
 

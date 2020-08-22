@@ -22,6 +22,8 @@ toc_sticky: true
 
 # 1. Week 5
 
+## dictionary
+
 Dictionary: list와 비슷하지만 순서가 없다. 그리고 각 원소를 key라 부르고 key에 해당하는 value값이 존재한다.  
 아래의 그림처럼 말이다.
 

@@ -22,6 +22,8 @@ toc_sticky: true
 
 # 1. Week 1, 3, 4
 
+## string library(소문자)
+
 string library 라는게 있다. 도서관처럼 꺼내어 쓸수 있는 built-in 기능입니다. 특정 기능을 수행하기위해 코드를 짤필요가 없습니다. 
 
 
@@ -34,6 +36,8 @@ print(greet)
 Hello Bob
 ```
 
+## file handle
+
 file handle 이라는게 있다. 그건 어떤 파일로 통하는 관문이라고 보면 된다. file handle 안에 정보가 들어있지는 않고 정보를 여는 열쇠이다. 
 
 ```python
@@ -41,6 +45,8 @@ xfile = open('mbox.txt')
 for cheese in xfile: # xfile을 열쇠로 사용해 for 문을 돌릴 수 있다.
     print(cheese)
 ```
+
+## list 를 이용해서 평균 구하기
 
 다음은 list 객체를 이용해 평균을 구해보자. 
 
