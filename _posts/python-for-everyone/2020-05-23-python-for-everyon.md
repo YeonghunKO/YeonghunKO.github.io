@@ -21,6 +21,8 @@ toc_sticky: true
 > 1. 나름대로 개념 정리.  
 > 2. 각 개념에 따른 예문 정리.  
 > 3. 그리고 중간중간 괜찮다고 생각되는 영어 표현 정리
+> 4. coursera python course 와 관련된 모든 파일은 깃헙에 있음.
+
 
 # week1 
 ## 1.1 - Why program? 
