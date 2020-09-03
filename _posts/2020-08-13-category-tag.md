@@ -1,5 +1,5 @@
 ---
-title:  "카테고리, 태그별로 글 정리"
+title:  "<3> 카테고리, 태그별로 글 정리"
 excerpt: "카테고리, 태그"
 
 categories:

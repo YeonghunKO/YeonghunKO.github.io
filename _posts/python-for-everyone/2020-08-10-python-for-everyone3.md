@@ -1,5 +1,5 @@
 ---
-title:  "Python for everyone - week 5, week 6(if, try and except, def 함수)"
+title:  "<3> Python for everyone - week 5, week 6(if, try and except, def 함수)"
 excerpt: "Python for everyone - week 5, week 6"
 
 categories:
@@ -8,7 +8,7 @@ tags:
   - if
   - 
   - 
-last_modified_at: 2020-08-18T09:06:00-05:00
+last_modified_at: 2020-08-16T09:06:00-05:00
 
 toc: true
 toc_label: "목차"

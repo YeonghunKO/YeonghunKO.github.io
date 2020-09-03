@@ -1,5 +1,5 @@
 ---
-title:  "Python data structure - week 1, 3, 4(for, while 문 그리고 파이썬의 기본 개념)"
+title:  "<5> Python data structure - week 1, 3, 4(for, while 문 그리고 파이썬의 기본 개념)"
 excerpt: "Python data structure - week 1, 3, 4"
 
 categories:

@@ -1,5 +1,5 @@
 ---
-title:  "Using python to access data bases example - 링크타고 들어가기 예제"
+title:  "<12> Using python to access data bases example - 링크타고 들어가기 예제"
 excerpt: "링크타고 들어가기 예제"
 
 categories:
