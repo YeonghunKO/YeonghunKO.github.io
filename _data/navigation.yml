@@ -10,5 +10,4 @@ main:
     url: /year-archive/
   - title: "post by tag"
     url: /tags/
-  - title: "post by tag"
-    url: /categories/python
+  
