@@ -12,8 +12,11 @@ toc: true
 toc_label: "목차"
 toc_icon: "cog"
 toc_sticky: true
+
+header:
+  image: https://yeonghunko.github.io/assets/img/styleguide.png
 ---
-![styleguide](https://yeonghunko.github.io/assets/img/styleguide.png){:class="img-fluid"}
+
 
 # Heading levels
 
