@@ -1,6 +1,6 @@
 ---
-title:  "<1> 노마드 코드 CSS 클론웹페이지 - grid"
-excerpt: "grid"
+title:  "<10> 노마드 코드 CSS 클론웹페이지 - horro web 클론"
+excerpt: "cloning web page"
 
 categories:
   - css
@@ -22,20 +22,13 @@ toc_sticky: true
 # 1. Week 3
 
 
-
-```javascript
-x = 2
-x = x + 2
-print(x)
-```
-
 ```html
 x = 2
 x = x + 2
 print(x)
 ```
 
-```css
+```scss
 x = 2
 x = x + 2
 print(x)
@@ -47,7 +40,7 @@ print(x)
 
 - And you'll notice that this is indented at the same level as the print statement.
 
-![if](https://yeonghunko.github.io/assets/img/coursera-python/if.png){:class="img-fluid"}
+![if](https://yeonghunko.github.io/assets/img/css/if.png){:class="img-fluid"}
 
 
 
