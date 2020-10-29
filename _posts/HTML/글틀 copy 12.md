@@ -1,9 +1,9 @@
 ---
-title:  "<9> 노마드 코드 CSS 클론웹페이지 - horro web 클론"
-excerpt: "cloning web page"
+title:  "<2> HTML, DIV와 SPAN의 차이"
+excerpt: "div, span"
 
 categories:
-  - css
+  - html
 tags:
   - 
   - 
