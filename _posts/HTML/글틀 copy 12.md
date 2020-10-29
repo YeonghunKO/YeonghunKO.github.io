@@ -28,17 +28,35 @@ x = x + 2
 print(x)
 ```
 
-```scss
+```css
+x = 2
+x = x + 2
+print(x)
+```
+```html
+x = 2
+x = x + 2
+print(x)
+```
+
+```css
+x = 2
+x = x + 2
+print(x)
+```
+```html
+x = 2
+x = x + 2
+print(x)
+```
+
+```css
 x = 2
 x = x + 2
 print(x)
 ```
 
 ## Week 3 영어문장 정리
-
-- So like I said, you can do interactive in Python or you can run a script.(Interactive: You type directly to python one line at a time and it responds.)  
-
-- And you'll notice that this is indented at the same level as the print statement.
 
 ![if](https://yeonghunko.github.io/assets/img/css/if.png){:class="img-fluid"}
 
