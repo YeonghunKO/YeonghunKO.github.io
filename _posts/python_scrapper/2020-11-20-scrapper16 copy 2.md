@@ -1,12 +1,13 @@
 ---
-title:  "<1> 노마드 코드 python scrapper - python 기초 문법"
-excerpt: "객체, 함수는?"
+title:  "<15> 노마드 코드 python scrapper 디버깅 과정 1"
+excerpt: "replace, boolean, MAX_PAGE"
 
 categories:
   - python scrapper
 tags:
-  - 
-  - 
+  - replace
+  - boolean
+  - MAX_PAGE
 last_modified_at: 2020-08-27T09:06:00-05:00
 
 toc: true
@@ -19,23 +20,10 @@ toc_sticky: true
 > 2. 각 개념에 따른 코드 정리.  
 
 
-# 1. Week 3
+# 파이썬이 느린 이유
 
-
-
-```javascript
-x = 2
-x = x + 2
-print(x)
-```
 
 ```python
-x = 2
-x = x + 2
-print(x)
-```
-
-```css
 x = 2
 x = x + 2
 print(x)
