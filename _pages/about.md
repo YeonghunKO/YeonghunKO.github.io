@@ -41,7 +41,7 @@ p.a {
 
 
 - 2020.07: [<font color="orange">Coursera python</font>](#coursera-python)
-- 2020.09: [<font color="orange">Vanila-js</font>](#vanila-js)
+- 2020.09: [<font color="orange">Vanila-js(to do list 웹사이트를 만듬)</font>](#vanila-js)
 - 2020.11: [<font color="orange">Python scapper</font>](#python-scrapper)
 <!-- - [네 번째](#네-번째) -->
 <!-- - [다섯 번째](#다섯-번째) -->
