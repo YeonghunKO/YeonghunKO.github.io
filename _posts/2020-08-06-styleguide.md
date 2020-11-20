@@ -94,7 +94,9 @@ This is an h2 heading
 
 - [Coursera python](#coursera-python) #괄호안에를 소문자로 해야적용됨. 대문자로 하면 링크가 작동 하지 않음.
 
-# coursera python
+# #Coursera python
+
+# <font color="red">Coursera python</font>
 
 그냥 시범삼아.
 
@@ -116,6 +118,13 @@ __굵은글씨로 시작해서*이탈릭으로 돌아왔다가* 다시 굵어짐
 >  * list     
 >   `textbox`
 #list 뒤에 tab을 입력하니 hierarchy가 생김.
+
+<p>이글을 쓰는 도중에 나는 아무생각이 없다.</br> 그냥 글을 두줄로 나눠야 한다는 생각뿐이다.</p>
+
+이 글도 마찬가지다 그냥 글을 두줄로 `br` 말고 `\` 로 나눈다. \
+여기부터는 두번째 문장이다 나뉘어져 있다. `\` 를 입력하고 엔터를 누르면 나뉜다.
+
+그리고 글자에 색깔을 입력하는 방법이다. \textcolor{red}{red}
 
 # table
 
