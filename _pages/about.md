@@ -64,19 +64,20 @@ p.a {
 
 # <font color="orange">Vanila-js</font>
 
-> 소감: 노마드 코드에서 처음으로 수강하는 과목이라 그런지 매우 설렜다. 그리고 노마드코더의 최강 장점, 클론코딩을 통해 직접 무언가를 만들어보기 때문에 상당한 재미를 느낄 수 있었다. 또한 챌린지를 통해 매주 과제를 해결해 나가면서 직접 부딪혀야하기 때문에 그 과정에서 실력또한 자연스레 올라간다. 여러모로 배울점이 많은 곳이다. 
+> 소감: 노마드 코드에서 처음으로 수강하는 과목이라 그런지 매우 설렜다. 그리고 노마드코더의 최강 장점, 클론코딩을 통해 직접 무언가를 만들어보기 때문에 상당한 재미를 느낄 수 있었다. 또한 챌린지를 통해 매주 과제를 해결해 나가면서 직접 부딪혀야하기 때문에 그 과정에서 실력또한 자연스레 올라간다. 여러모로 배울점이 많은 곳이다. 또한 다른 사람들의 코드를 보면서 이해하고 내 나름대로 적용하면서 또한 정말 많이 배웠다.
 
 > 배운것: 
 - 자바스크립트 기본문법은 물론이고 localstorage에 정보저장하는 법 
 - divide and conquer를 통한 효율적인 코드 관리
 - 데이터를 효율적으로 관리하는 법
-- 또한 개인적으로 css를 이용해 웹사이트를 꾸몄기 떄문에 css 도 살짝 맛볼 수 있었다
+- 또한 개인적으로 css를 이용해 웹사이트를 꾸몄기 떄문에 css 도 살짝 맛볼 수 있었다.
+- js.css를 통한 토글기능도 배웠다.
 
 > 관련링크  
 
-- [to-do list website](https://yeonghunko.github.io/vanila-js-momonton-/)  
+- [to-do list website](https://yeonghunko.github.io/TO-LIST-ADVANCED/)  
 
-- [관련 포스팅](https://yeonghunko.github.io/vanila%20js/vanila6/)
+- [관련 포스팅](https://yeonghunko.github.io/vanila%20js/vanila13/)
 
 # <font color="orange">Python-scrapper</font>
 
