@@ -120,8 +120,8 @@ print('hello world!')
 
 ## 이미지
 
-`![alt text](/assets/img/fromis.PNG)`
-![alt text](/assets/img/fromis.PNG)
+`![alt text](\assets\img\github-blog-start\sky.JPG)`
+![alt text](\assets\img\github-blog-start\sky.JPG)
 
 ## 표
 
