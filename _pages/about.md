@@ -88,9 +88,11 @@ p.a {
 - 가독성을 살리기 위해 강조해야할 코드가 뭐가 있을지 생각한다
 - 디버그하는 과정이 굉장히 중요하다는 것
 - css를 통한 반응형 웹 만들기
+- javascript 를 이용해서 로딩페이지 추가
+- javascript 를 이용해서 검색 history 추가
 
 > 관련링크
 
-- [scrapper website](https://scrapperfinal.yeonghunko.repl.co/)  
+- [scrapper website](https://scrapperedited.yeonghunko.repl.co/)  
 
 - [관련 포스팅](https://yeonghunko.github.io/python%20scrapper/scrapper16/)
