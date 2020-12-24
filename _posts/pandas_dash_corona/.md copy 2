@@ -1,5 +1,5 @@
 ---
-title:  "<1> Pandas와 dash로 코로나 사이트 만들기 1 ()"
+title:  "<2> Pandas와 dash로 코로나 사이트 만들기 2 (데이터 가공)"
 excerpt: "pandas"
 
 categories:
@@ -19,15 +19,8 @@ toc_sticky: true
 > 2. 각 개념에 따른 코드 정리.  
 
 
-# 1. Week 3
+# 오늘 발생한 확진자수, 사망자수, 격리해제자수 구하기
 
-
-
-```javascript
-x = 2
-x = x + 2
-print(x)
-```
 
 ```python
 x = 2
@@ -35,7 +28,14 @@ x = x + 2
 print(x)
 ```
 
-```css
+
+```python
+x = 2
+x = x + 2
+print(x)
+```
+
+```python
 x = 2
 x = x + 2
 print(x)
