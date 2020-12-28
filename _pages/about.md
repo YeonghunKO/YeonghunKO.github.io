@@ -61,7 +61,7 @@ p.a {
 
 - [시각화된 웹사이트](https://yeonghunko.github.io/visualizing/)  
 
-- [관련 포스팅](https://yeonghunko.github.io/python/geocoding1/)
+- [관련 포스팅](https://yeonghunko.github.io/python/python-for-everyone2/)
 
 # <font color="orange">Vanila-js</font>
 
