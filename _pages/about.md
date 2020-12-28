@@ -43,6 +43,7 @@ p.a {
 - 2020.07: [<font color="orange">Coursera python</font>](#coursera-python)
 - 2020.09: [<font color="orange">Vanila-js(to do list 웹사이트를 만듬)</font>](#vanila-js)
 - 2020.11: [<font color="orange">Python scapper</font>](#python-scrapper)
+- 2020.12: [<font color="orange">Corona data 웹사이트</font>](#corona-data-web)
 <!-- - [네 번째](#네-번째) -->
 <!-- - [다섯 번째](#다섯-번째) -->
 
@@ -96,3 +97,19 @@ p.a {
 - [scrapper website](https://scrapperedited.yeonghunko.repl.co/)  
 
 - [관련 포스팅](https://yeonghunko.github.io/python%20scrapper/scrapper16/)
+
+# <font color="orange">Corona-data-web</font>
+
+> 소감: 데이터 사이언스에 관심이 있는 나로서는 상당히 신기한 작업이었다. 이렇게 쉽게 데이터를 손질 하고 그래픽으로 시각화 할 수 있다는 사실이 놀랍기만 하다.
+
+> 배운것: 
+- pandas/dash/plotly 기본문법
+- 데이터를 통해 세상을 객관적으로 바라볼 수 있게 된것
+- 공식문서 보고 적용하는 법
+- heroku에 웹사이트 deploy 하는 법
+
+> 관련링크
+
+- [Corona-data-web](https://corona-dashboard-awesome.herokuapp.com/)  
+
+- [관련 포스팅](https://yeonghunko.github.io/pandas/dash/corona/corona1/)
