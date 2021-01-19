@@ -18,7 +18,7 @@ toc_sticky: true
 > 1. 나름대로 개념 정리.
 > 2. 각 개념에 따른 코드 정리.
 
-# 개선 방법
+# 1. 개선 방법
 
 그럼 무언가가 바뀔때 가장 좋은 방법은, 수정하고 나서 operation 과정중에 composition만 하면 되게끔 하는 방법이다. 그러나 top,left를 바꾸면 layout부터 다시 시작해야한다. css property 중에 수정하고 나서 operation 과정중에 어디서 부터 수정해야하는지 알려주는 사이트가 있다.
 
