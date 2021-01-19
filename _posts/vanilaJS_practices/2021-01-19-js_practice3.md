@@ -97,6 +97,7 @@ document.addEventListener("mousemove", (event) => {
 ![target](https://yeonghunko.github.io/assets/img/vanila_practice/target.png){:class="img-fluid"}
 
 그러나 top , left를 쓰면 성능이 저하된다. 그 이유를 알려면 먼저 서버가 브라우저에게 웹 정보를 전달하는 과정을 알아야한다.
+
 (rendering 하는 과정)
 
 **1.** request/reponse: 브라우저가 서버에게 html 파일을 요청. 가장 먼저 html을 받아오고 그 파일안에서 링크된 필요한 파일들 (css/js)을 받아온다

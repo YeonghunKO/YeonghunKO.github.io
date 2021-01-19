@@ -20,11 +20,11 @@ toc_sticky: true
 
 # 개선 방법
 
-그럼 무언가가 바뀔때 가장 좋은 방법은, 수정하고 나서 operation 과정중에 composition만 하면 되게끔 하는 방법이다. 그러나 top,left를 바꾸면 layout부터 다시 시작해야한다. css property 중에 수정하고 나서 operation 과정중에 어디서 부터 시작되는지 알려주는 사이트가 있다.
+그럼 무언가가 바뀔때 가장 좋은 방법은, 수정하고 나서 operation 과정중에 composition만 하면 되게끔 하는 방법이다. 그러나 top,left를 바꾸면 layout부터 다시 시작해야한다. css property 중에 수정하고 나서 operation 과정중에 어디서 부터 수정해야하는지 알려주는 사이트가 있다.
 
 [효율적인 css를 위한 웹사이트](https://csstriggers.com/)
 
-들어가보면 top, left는 operation과정을 모두 거쳐야한다는 것을 확인할 수 있다. 그럼 효율적으로 위치를 수정하는 property가 뭐가 있을까? 바로 `transform property` 이다. 그럼 자바스크립트를 수정해보자.
+들어가보면 top, left는 operation과정을 모두 거쳐야한다는 것을 확인할 수 있다. 그럼 효율적으로 위치를 수정하는 property가 뭐가 있을까? 바로 `transform property` 이다. composition만 하면 된다는 것을 확인 할 수 있다. 그럼 자바스크립트를 수정해보자.
 
 ```javascript
 document.addEventListener("mousemove", (event) => {
@@ -42,7 +42,7 @@ document.addEventListener("mousemove", (event) => {
 
 ![target](https://yeonghunko.github.io/assets/img/vanila_practice/target_miss.png){:class="img-fluid"}
 
-그럼 여기서 target의 가로길이의 반만큼 왼쪽으로 가고 반만큼 위로 올라가면 커서에 위치하는 것을 알 수 있다. 그럼 생각할 수 있는방법이, `getBoundingClientRect` 함수를 이용해서 target의 width,height를 알아내고 나누기 2를 한다. 그리고 그 반으로 나눈 값을 target.transform 에서 빼면 된다.
+곰곰히 생각해보면, target의 가로길이의 반만큼 왼쪽으로 가고 반만큼 위로 올라가면 커서에 위치하는 것을 알 수 있다. 그럼 생각할 수 있는방법이, `getBoundingClientRect` 함수를 이용해서 target의 width,height를 알아내고 나누기 2를 하는 방법이다. 그리고 그 반으로 나눈 값을 target.transform 에서 빼면 된다.
 
 ```javascript
 const targetRect = target.getBoundingClientRect();
@@ -53,7 +53,7 @@ target.style.transform = `translate(${xCoor - targetRectHalfWidth}px,${
 }px)`;
 ```
 
-그러나 문제가 발생할 수 있다. `getBoundingClientRect`을 출력해본 결과 height/width의 값이 0 일 수 있다. 이유는 html이 rendering되기 전에 js가 fetching되어진 경우이다. 그렇다면 html이 다 rendering 된 이후에 target의 크기를 받아오면 되므로 event추가할때 `load`라는 키워드를 사용하면 된다.
+그러나 문제가 발생할 수 있다. `getBoundingClientRect`을 출력했을때 height/width의 값이 0 일 수 있다. 이유는 html이 rendering되기 전에 js가 fetching되어진 경우이다. 그렇다면 html이 다 rendering 된 이후에 target의 크기를 받아오면 되므로 event추가할때 `load`라는 키워드를 사용하면 된다.
 
 ```javascript
 window.addEventListener("load", () => {
@@ -69,18 +69,16 @@ window.addEventListener("load", () => {
     coord.style.transform = `translate(${xCoor}px,${yCoor}px)`;
     cross.style.transform = `translate(${xCoor}px,0)`;
     horizontal.style.transform = `translate(0,${yCoor}px)`;
-    // cross.style.left = xCoor + 'px';
-    // horizontal.style.top = yCoor + 'px';
     coord.innerHTML = `${xCoor}px, ${yCoor}px`;
   });
 });
 ```
 
-그럼 target의 height/width 값을 받아올 수 있게 되면서 target이 커서에 위치하게 된다.
+그럼 html이 다 `load`되고 나서 중괄호안에 있는 코드를 실행하게 된다. 그렇게 되면, target의 height/width 값을 받아올 수 있게 되면서 target이 커서에 위치하게 된다.
 
 # 2. 성능이 향상되었다는 증거
 
-그럼 실제로 성능이 향상되었는지 어떻게 알 수 있을까? 바로 개발자 도구에 performance 탭에 들어가면 된다. 우선 top/left를 썼을때 performance를 살펴보고 tranform을 사용하면 얼마나 향상되었을지 비교해보자.
+그럼 실제로 성능이 향상되었는지 어떻게 알 수 있을까? 바로 개발자 도구에 performance 탭에 들어가면 된다. 우선 top/left를 썼을때 performance를 살펴보고 tranform을 사용했을때 성능이 얼마나 향상되었을지 비교해보자.
 
 ![bad](https://yeonghunko.github.io/assets/img/vanila_practice/bad.png){:class="img-fluid"}
 
