@@ -3,7 +3,7 @@ title: "<3> 미니게임으로 연습하는 바닐라 JS (좌표찾아 007을 �
 excerpt: "좌표를 바로 나타낼 수 있는 방법은?"
 
 categories:
-  - Vanila JS
+  - Vanila JS practice
 tags:
   - pageX
   - mousemove

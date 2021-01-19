@@ -3,7 +3,7 @@ title: "<1> 미니게임으로 연습하는 바닐라 JS (미니게임 쇼핑몰
 excerpt: ""
 
 categories:
-  - Vanila JS
+  - Vanila JS practice
 tags:
   -
   -
