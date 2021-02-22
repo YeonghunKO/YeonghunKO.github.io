@@ -1,6 +1,6 @@
 ---
-title: "<1> 미니게임으로 연습하는 바닐라 JS (당근게임)"
-excerpt: "객체, 함수는?"
+title: "<2> 미니게임으로 연습하는 바닐라 JS (당근게임)"
+excerpt: "top_ui 마저구현, 그냥 일단 적고 보자 ㅋㅋ"
 
 categories:
   - Vanila JS Carrot Game
@@ -18,7 +18,7 @@ toc_sticky: true
 > 1. 나름대로 개념 정리.
 > 2. 각 개념에 따른 코드 정리.
 
-# 1. Week 3
+# 1. top_ui 기능 구현
 
 ```javascript
 function displayAll() {
