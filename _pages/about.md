@@ -41,6 +41,7 @@ p.a {
 - 2020.09: [<font color="orange">Vanila-js(to do list 웹사이트를 만듬)</font>](#vanila-js)
 - 2020.11: [<font color="orange">Python scapper</font>](#python-scrapper)
 - 2020.12: [<font color="orange">Corona data 웹사이트</font>](#corona-data-web)
+- 2021.02: [<font color="orange">당근 모으기 게임</font>](#carrot-collect)
   <!-- - [네 번째](#네-번째) -->
   <!-- - [다섯 번째](#다섯-번째) -->
 
@@ -48,7 +49,7 @@ p.a {
 
 > 소감: 파이썬을 처음 배운 날. coursear에서 진행했기 때문에 프로그래밍에 특화된 영어도 배울 수 있어서 매우 좋았다.
 
-> 배운것:
+> 새로 배운 것:
 
 - 기본 문법: 함수만드는 법, 간단한 프로그램 작성법
 - 외부 서버에서 정보가져오는 법(json)
@@ -64,7 +65,7 @@ p.a {
 
 > 소감: 노마드 코드에서 처음으로 수강하는 과목이라 그런지 매우 설렜다. 그리고 노마드코더의 최강 장점, 클론코딩을 통해 직접 무언가를 만들어보기 때문에 상당한 재미를 느낄 수 있었다. 또한 챌린지를 통해 매주 과제를 해결해 나가면서 직접 부딪혀야하기 때문에 그 과정에서 실력또한 자연스레 올라간다. 여러모로 배울점이 많은 곳이다. 또한 다른 사람들의 코드를 보면서 이해하고 내 나름대로 적용하면서 또한 정말 많이 배웠다.
 
-> 배운것:
+> 새로 배운 것:
 
 - 자바스크립트 기본문법은 물론이고 localstorage에 정보저장하는 법
 - divide and conquer를 통한 효율적인 코드 관리
@@ -82,7 +83,7 @@ p.a {
 
 > 소감: 처음부터 끝까지 내가 코드를 하나하나 손으로 적어가면서 만든 서비스이기 때문에 시행착오를 많이 겪었다. 그러나 그렇기 때문에 굉장한 애착과 자부심이 있는 서비스이다.
 
-> 배운것:
+> 새로 배운 것:
 
 - divide and conquer를 통해 기능별로 함수와 파일을 따로 만든다
 - 가독성을 살리기 위해 강조해야할 코드가 뭐가 있을지 생각한다
@@ -101,7 +102,7 @@ p.a {
 
 > 소감: 데이터 사이언스에 관심이 있는 나로서는 상당히 신기한 작업이었다. 이렇게 쉽게 데이터를 손질 하고 그래픽으로 시각화 할 수 있다는 사실이 놀랍기만 하다.
 
-> 배운것:
+> 새로 배운 것:
 
 - pandas/dash/plotly 기본문법
 - 데이터를 통해 세상을 객관적으로 바라볼 수 있게 된것
@@ -113,3 +114,20 @@ p.a {
 - [Corona-data-web](https://corona-dashboard-awesome.herokuapp.com/)
 
 - [관련 포스팅](https://yeonghunko.github.io/pandas/dash/corona/corona1/)
+
+# <font color="orange">Carrot-collect</font>
+
+> 소감: 상당히 재밌게 작업했다. 그래픽작업을 한적이 처음이라 새로운 자극이 되었고, 모듈별로 리팩토링을 배운게 이번 프로젝트하면서 가장 큰 수확이었던것 같다.
+
+> 새로 배운 것:
+
+- 모듈별로 클래스를 만들어 리팩토링 함으로써 확장성과 직관성을 향상시킨 것
+- 다른사람의 코드를 찬찬히 읽고 이해해서 내것으로 만들어 문제를 해결해 봄
+- 알고리즘을 짜는 능력이 조금 향상된 것 같음
+- 캔버스를 활용 함
+
+> 관련링크
+
+- [carrot-collecting-game](https://yeonghunko.github.io/carrot_collect_advanced/)
+
+- [관련 포스팅](https://yeonghunko.github.io/vanila%20js%20carrot%20game/carrot1/)
