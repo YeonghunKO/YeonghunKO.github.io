@@ -5,7 +5,7 @@ excerpt: "전체적인 개요"
 categories:
   - Vanila JS practice
 tags:
-  -
+  - thread
   -
 last_modified_at: 2020-08-27T09:06:00-05:00
 
