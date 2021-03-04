@@ -52,4 +52,4 @@ Thread > 일꾼
 
 이렇게 콜스택과 테스크 큐를 서로 왔다갔다 하면서 관찰하고 순서대로 일이 진행되도록 하는 아이가 event loop이라는 것이다.
 
-더 자세한 내용은https://www.youtube.com/watch?v=8aGhZQkoFbQ&list=PLpjvGpURp3yjz_OYVkXdTq1TXX2P9SCbl&index=58&t=1416s 영상을 보면 된다. event loop라는 것은 다음글에서 설명하도록 하겠다.
+더 자세한 내용은 [runtime loupe](https://www.youtube.com/watch?v=8aGhZQkoFbQ&list=PLpjvGpURp3yjz_OYVkXdTq1TXX2P9SCbl&index=58&t=1416s) 영상을 보면 된다. event loop라는 것은 다음글에서 설명하도록 하겠다.
