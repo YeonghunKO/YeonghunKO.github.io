@@ -55,4 +55,4 @@ function add() {
 
 loupe라는 웹사이트에서 벡엔드에서 일어나는 이러한 과정을 시각화시켰다.
 
-![loupe](https://yeonghunko.github.io/assets/img/vanila_practice/loupe.mp4){:class="img-fluid"}
+![loupe](https://yeonghunko.github.io/assets/img/vanila_practice/loupe.gif){:class="img-fluid"}
