@@ -38,7 +38,7 @@ p.a {
  <h1 class="text-center"><font color="red" size=7><i><p class="a">프로젝트</p></i></font></h1>
 
 - 2020.07: [<font color="orange">Coursera python</font>](#coursera-python)
-- 2020.09: [<font color="orange">Vanila-js(to do list 웹사이트를 만듬)</font>](#vanila-js)
+- 2020.09: [<font color="orange">Vanila-js(to do list 웹사이트를 만듬)</font>](#vanila-js-to-do)
 - 2020.11: [<font color="orange">Python scapper</font>](#python-scrapper)
 - 2020.12: [<font color="orange">Corona data 웹사이트</font>](#corona-data-web)
 - 2021.02: [<font color="orange">당근 모으기 게임</font>](#carrot-collect)
@@ -61,7 +61,7 @@ p.a {
 
 - [관련 포스팅](https://yeonghunko.github.io/python/python-for-everyone2/)
 
-# <font color="orange">Vanila-js</font>
+# <font color="orange">Vanila-js-to-do</font>
 
 > 소감: 노마드 코드에서 처음으로 수강하는 과목이라 그런지 매우 설렜다. 그리고 노마드코더의 최강 장점, 클론코딩을 통해 직접 무언가를 만들어보기 때문에 상당한 재미를 느낄 수 있었다. 또한 챌린지를 통해 매주 과제를 해결해 나가면서 직접 부딪혀야하기 때문에 그 과정에서 실력또한 자연스레 올라간다. 여러모로 배울점이 많은 곳이다. 또한 다른 사람들의 코드를 보면서 이해하고 내 나름대로 적용하면서 또한 정말 많이 배웠다.
 
@@ -72,6 +72,7 @@ p.a {
 - 데이터를 효율적으로 관리하는 법
 - 또한 개인적으로 css를 이용해 웹사이트를 꾸몄기 떄문에 css 도 살짝 맛볼 수 있었다.
 - js.css를 통한 토글기능도 배웠다.
+- beforeunload를 통해서 드래그된 아이템의 위치가 웹사이트를 나가기전에 기억되도록 했다.
 
 > 관련링크
 
