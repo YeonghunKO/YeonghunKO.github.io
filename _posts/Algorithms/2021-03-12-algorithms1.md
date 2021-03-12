@@ -145,7 +145,8 @@ function sameElementsDetector(array) {
 
 **답**
 
-rearrangeBoard(board);
+rearrangeBoard(board)
+
 **1** board를 순회하면서 첫번째 원소를 first에 넣고 첫번째원소 지움. 그다음 줄로 넘어감
 
 **2** 그렇게 해서 first array를 rearrangedBoard에 넣고 first를 초기화시킴.
@@ -154,7 +155,8 @@ rearrangeBoard(board);
 
 **4** 새로운 array를 기존 array에 덮어씌운다음 LS에 저장한다.
 
-pickUpDolls(moves);
+pickUpDolls(moves)
+
 **1.** rearrangedBoard안에서 moves 숫자대로 움직임.
 
 **2.** claw가 moves숫자를 이해해서 그 숫자번째에 도착하면 0은 그냥 지나치면서 마주친 첫번째 숫자를 뽑음
@@ -165,7 +167,8 @@ pickUpDolls(moves);
 
 **5.** 위의 과정을 반복 moves 길이 만큼
 
-sameElementExtractor(basket);
+sameElementExtractor(basket)
+
 **1.** basket에 담긴 숫자를 순회하다가 연속되는 똑같은 숫자가 있으면 그 숫자를 same에 담는다.
 
 **2.** 그리고 그 숫자들은 basket에서 지운다. filter를 사용해서
@@ -178,7 +181,8 @@ sameElementExtractor(basket);
 
 board를 순회하면서 동시에 moves 순서대로 다가가서 숫자를 뽑으면 된다. 해냈다!! 대박이다.
 
-pickUpDolls(moves);
+pickUpDolls(moves)
+
 **1.** board안에서 moves 숫자대로 움직임.
 
 **2.** claw가 그 숫자번째에 도착하면 0은 그냥 지나치면서 계속 순회하다가 마주친 첫번째 숫자를 뽑음
@@ -196,7 +200,7 @@ pickUpDolls(moves);
 
 **버그**
 
-1. moves가 [1, 5, 2, 3, 5, 3, 5, 6, 2]; 라고 가정하고 board가
+moves가 [1, 5, 2, 3, 5, 3, 5, 6, 2]; 라고 가정하고 board가
 
 let board = [
 [
