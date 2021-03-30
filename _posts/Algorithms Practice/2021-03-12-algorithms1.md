@@ -3,7 +3,7 @@ title: "<1> 코딩테스트 (프로그래머스 코딩테스트-인형뽑기)"
 excerpt: "claw machine"
 
 categories:
-  - Algorithms
+  - Algorithms Practice
 tags:
   - splice
 last_modified_at: 2020-08-27T09:06:00-05:00

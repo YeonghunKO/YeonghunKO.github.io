@@ -3,7 +3,7 @@ title: "<2> 코딩테스트 (프로그래머스 코딩테스트-인형뽑기)"
 excerpt: "claw machine solutions"
 
 categories:
-  - Algorithms
+  - Algorithms Practice
 tags:
   - reduce
   -

@@ -3,7 +3,7 @@ title: "<3> 코딩테스트 (프로그래머스 코딩테스트-아이디 추천
 excerpt: "replace"
 
 categories:
-  - Algorithms
+  - Algorithms Practice
 tags:
   - regular expression
   - replace
