@@ -39,7 +39,8 @@ toc_sticky: true
 
 3. o(n square) : exponential 하게 시간이 걸림.(usually to nested loop)
    It is all about general trend for the time required for the final result. the trend is proportionate with n. and we simplify various equations down to just fuzzy level like above.
-   So time-complexity wise, o(1) > o(n) > o(n square). In other words, avoid nested loops if possible
+   So time-complexity wise, o(1) > o(n) > o(n square).
+   **In other words, avoid nested loops if possible**
 
 -Space complexity
 It only counts how much variables are made through algorithms inside.

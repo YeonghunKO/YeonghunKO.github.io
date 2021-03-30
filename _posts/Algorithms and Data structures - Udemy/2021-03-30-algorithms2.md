@@ -42,12 +42,12 @@ toc_sticky: true
 
 문제를 해결하기 위해서 다양한 방법이 있다.
 
-- Multiple pointers: Creating pointers or values that correspond to an index or position and move towards the beginning, end or middle based on a certain condition. Very efficient for solving problems with minimal space complexity as well.
+**Multiple pointers**: Creating pointers or values that correspond to an index or position and move towards the beginning, end or middle based on a certain condition. Very efficient for solving problems with minimal space complexity as well.
 
 So Instead of having one pointer toward one direction, we’ve got two pointers toward two directions which takes much less iteration compared to one pointer.
 
-- Sliding window: this pattern invovles creating a window which can either be an array or number from on position to another. Depending on a certain condition, the window either increases or closes(and a new window is created) Very useful for keeping track of a subset of data in an array/string etc.
+**Sliding window**: this pattern invovles creating a window which can either be an array or number from on position to another. Depending on a certain condition, the window either increases or closes(and a new window is created) Very useful for keeping track of a subset of data in an array/string etc.
 
 So basically window can cover for certain position inside data. So everytime you move through the data, you all you care about is to deal with edges of the window. I think you can also think of window as scope you are looking inside data structure.
 
-- Divide and Conquer: This pattern invovles dividing a data set into smaller chunks and then repeating a process with a subset of data. This pattern can tremedously decrease time complexity. For example, like binary search. instead of looping through every elements, you take the middle one and compare if it is bigger than what you are looking for.
+**Divide and Conquer**: This pattern invovles dividing a data set into smaller chunks and then repeating a process with a subset of data. This pattern can tremedously decrease time complexity. For example, like binary search. instead of looping through every elements, you take the middle one and compare if it is bigger than what you are looking for.
