@@ -25,7 +25,7 @@ toc_sticky: true
 
 `visulgo` 라는 사이트인데 한 번 가서 가지고 놀아보는 것도 좋다.
 
-[visualgo]](https://visualgo.net/en)
+[visualgo](https://visualgo.net/en)
 
 # 2. bubble 정렬
 
@@ -69,7 +69,7 @@ console.log(bubbleSort([28, 1, 2, 5, 7, 34, 69]));
 
 arr를 둘로 나눈다 길이가 1 이 될때까지. 그리고 왼쪽과 오른쪽을 정렬해서 합친다. 그리고 helper 함수를 따로 정의해서 사용하고 있다.
 
-- Grand scheme of merge sort
+-- Grand scheme of merge sort
 
 1. It’s a combination of two things - merging and sorting!
 
@@ -77,19 +77,19 @@ arr를 둘로 나눈다 길이가 1 이 될때까지. 그리고 왼쪽과 오른
 
 3. Works by decomposing an array into smaller arrays of 0 or 1 elements, then building up a newly sorted array
 
-- prepared action
+-- prepared action
 
 1. In order to implement merge sort, it’s useful to first implement a function responsible for merging two sorted arrays.
 
 2. Given two arrays which is also sorted, and consists of all of the elements in the two input arrays.
 
-- Pseudocode. Let’s dive in!
+**Pseudocode. Let’s dive in!**
 
 1. Create an empty array, take a look at the smallest values in each input array.
 
 2. While there are still values we haven’t looked at
 
-- if the value in the first array is smaller than the value in the second array, push the value of the first array into our results and move on to the next in the first array.
+-- if the value in the first array is smaller than the value in the second array, push the value of the first array into our results and move on to the next in the first array.
 
 - if the value in the first array is larger than the value in the second array, push the value of the second array into our results and move on to the next value in the second array.
 
