@@ -1,11 +1,11 @@
 ---
-title: "<7> 단일 연결 리스트 "
+title: "<7> 단일 연결 리스트(Singly Linked List)"
 excerpt: "Singly Linked List"
 
 categories:
   - Algorithms and Data structures - Udemy
 tags:
-  -
+  - Singly Linked List
   -
 last_modified_at: 2020-08-27T09:06:00-05:00
 
@@ -20,7 +20,11 @@ toc_sticky: true
 
 # 1. 단일 연결 리스트
 
-array 와 같이 정보를 담는 그릇이다. 그러나 array 많은 점이 다르다. 포인터를 통해 연결되어있고(맞다. 그 유명한 포인터다.) index가 없다. 자세한 내용은 아래 정리되어있다.
+이제 부터 본격적으로 데이터를 담는 데이터 구조에 대해서 알아보자. 데이터를 담는 방법은 정말 다양하다. 변수에 담을 수 도 있고 array 에 담을 수 도 있고 객체를 이용해서 key/value의 형태로 담을 수 도 있다.
+
+이번에는 객체를 이용해서 담아보려고 한다. 정확히 말하면 list를 의미한다.
+
+list는 array 와 같이 정보를 담는 그릇이다. 그러나 array 많은 점이 다르다. 포인터를 통해 연결되어있고(맞다. 그 유명한 포인터다.) index가 없다. 자세한 내용은 아래 정리되어있다.
 
 단일 연결 리스트도 정렬과 마찬가지로 `visualgo` 에서 확인가능하다.
 
@@ -55,7 +59,7 @@ Linked list: a data structure that contains a head , tail and length property. i
 ```javascript
 class Node {
   constructor(val) {
-    this.val = val;
+    this.val = val; // val 에 정보의 내용이 담긴다.
     this.next = null;
   }
 }
