@@ -1,11 +1,11 @@
 ---
-title: "<4> Word Auto Compelete (tree를 활용하기)"
-excerpt: "tree 와 obj의 콤비"
+title: "<1> 미니게임으로 연습하는 바닐라 JS (미니게임 쇼핑몰 1)"
+excerpt: ""
 
 categories:
-  - Algorithms Practice
+  - Vanila JS practice
 tags:
-  - 자동완성
+  -
   -
 last_modified_at: 2020-08-27T09:06:00-05:00
 
@@ -18,7 +18,7 @@ toc_sticky: true
 > 1. 나름대로 개념 정리.
 > 2. 각 개념에 따른 코드 정리.
 
-# 1. Word Auto Compelete
+# 1. Week 3
 
 ```javascript
 x = 2;
