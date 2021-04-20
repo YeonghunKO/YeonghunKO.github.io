@@ -1,6 +1,6 @@
 ---
-title: "<19> <18> Dijkstra's algorithms(코드작성)"
-excerpt: "쪼까 복잡하다이"
+title: "<1> 코딩테스트 (프로그래머스 코딩테스트)"
+excerpt: ""
 
 categories:
   - Algorithms and Data structures - Udemy
@@ -18,32 +18,7 @@ toc_sticky: true
 > 1. 나름대로 개념 정리.
 > 2. 각 개념에 따른 코드 정리.
 
-# 4. 코드 작성
-
-우선 이런 복잡한 프로그램을 작성하려면 뭐부터 시작해야할지 막막하다.
-이때 글로 먼저 해야할 것들을 작성해보는것을 강력 추천한다. 언제나 그렇듯 pseudocode를 작성해보자.
-
-- Pseudocode
-
-## 4-1. SetUp code
-
-```javascript
-x = 2;
-x = x + 2;
-print(x);
-```
-
-```javascript
-x = 2;
-x = x + 2;
-print(x);
-```
-
-```javascript
-x = 2;
-x = x + 2;
-print(x);
-```
+# 1. Week 3
 
 ```javascript
 x = 2;
@@ -67,4 +42,4 @@ print(x)
 
 - And you'll notice that this is indented at the same level as the print statement.
 
-![weightedGraph](https://yeonghunko.github.io/assets/img/algorithms_Udemy/weightedGraph.png){:class="img-fluid"}
+![doubly](https://yeonghunko.github.io/assets/img/algorithms_Udemy/doubly.png){:class="img-fluid"}
