@@ -149,3 +149,28 @@ doubledPositiveNumbers;
 ```
 
 debugging 툴을 사용하면 accumlator가 넘어갈때 변경사항이 반영되는 것을 볼 수 있다. currentValue는 numbers의 element를 순회한다.
+
+# 3. map
+
+map은 각각의 element를 변형하여 새로운 array를 뱉어낸다.
+
+아래는 MDN의 설명이다.
+
+The map() method creates a new array populated with the results of calling a provided function on every element in the calling array.
+
+아래 코드를 보자.
+
+```javascript
+var arr = [1, 2, 3, 4, 5];
+var anotherArr = [10, 11, 12, 13, 14]; //
+
+arr.map((c, i) => [anotherArr[i] + c]);
+
+// 0: [11]
+// 1: [13]
+// 2: [15]
+// 3: [17]
+// 4: [19]
+```
+
+arr안에 ele가 anotherArr의 ele와 합쳐져서 []안에 담기고 그 새로운 `[ele+anotherArr]` 가 arr의 ele가 된다. 따라서 결과는 위와 같다.
