@@ -120,4 +120,32 @@ function solutionTwo(board, moves) {
 
 다만 위의 솔루션 2개의 공통점은 쓸데없는 과정을 모두 생략했다. 가령 나같은 경우엔 basket에 넣은다음에 for 문을 돌려서 같은 수를 찾아서 뽑아낸다음 어디에 담고 갯수를 세었다.
 
-그러나 위의 두 분은 basket에 넣는 순간 같은게 있으면 count에 2를 추가하는 식이다. 그렇게 끝나버린다. 불필요한 과정은 다 빼고 반드시 필요한 과정만 남기는 연습을 하자
+그러나 위의 두 분은 basket에 넣는 순간 같은게 있으면 count에 2를 추가하는 식이다. 그렇게 끝나버린다. 불필요한 과정은 다 빼고 반드시 필요한 과정만 남기는 연습을 하자.
+
+그리고 마지막으로 reduce에 대해서 살짝 정리하고 가려고 한다. 내가 1번째 코드를 잘 이해하지 못한 이유는 map과 reduce에 대한 이해가 부족해서 일지도 모른다.
+
+# 2. reduce
+
+reduce의 핵심은 이전의 결과가 변형되어 새로운 결과가 되고 그 새로운결과가 다시 넘어간다.
+
+즉 변경사항이 쌓이는것이다.
+
+맨처음 넘어가는 result(accumulator)는 빈 array이다.
+
+아래의 코드를 보면 더 잘 이해할 수 있다.
+
+```javascript
+const numbers = [-5, 6, 2, 0];
+
+const doubledPositiveNumbers = numbers.reduce((accumulator, currentValue) => {
+  if (currentValue > 0) {
+    const doubled = currentValue * 2;
+    accumulator.push(doubled);
+  }
+  return accumulator;
+}, []);
+
+doubledPositiveNumbers;
+```
+
+debugging 툴을 사용하면 accumlator가 넘어갈때 변경사항이 반영되는 것을 볼 수 있다. currentValue는 numbers의 element를 순회한다.
