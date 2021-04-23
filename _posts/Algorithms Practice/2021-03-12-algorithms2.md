@@ -132,6 +132,10 @@ reduce의 핵심은 이전의 결과가 변형되어 새로운 결과가 되고 
 
 맨처음 넘어가는 result(accumulator)는 빈 array이다.
 
+다음은 MDN 영어 설명이다.
+
+Your reducer function's returned value is assigned to the accumulator, whose value is remembered across each iteration throughout the array, and ultimatley becomes the final, single resulting value.
+
 아래의 코드를 보면 더 잘 이해할 수 있다.
 
 ```javascript
