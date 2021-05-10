@@ -33,7 +33,7 @@ toc_sticky: true
 3
 ```
 
-# 2. 접근법
+# 2. 접근방법
 
 기본적으로 0,1을 어떤 배열에 넣고 최종적으로 1인것만 구별하여 경우의 수를 뽑아내는 방법을 써야한다. 로직을 보자.
 
@@ -79,7 +79,6 @@ function subSet(n) {
 그럼 ch에 따라서 tempArr가 바뀌는 것을 알 수 있다.
 
 ![subSetCh](https://yeonghunko.github.io/assets/img/algorithms/subSetCh.png){:class="img-fluid"}
-subSetCh
 
 dfs트리를 그림으로 나타내면 아래와 같다.
 

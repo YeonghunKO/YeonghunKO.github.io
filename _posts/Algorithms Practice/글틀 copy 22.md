@@ -41,4 +41,5 @@ print(x)
 - So like I said, you can do interactive in Python or you can run a script.(Interactive: You type directly to python one line at a time and it responds.)
 
 - And you'll notice that this is indented at the same level as the print statement.
-  ![shortest.png](https://yeonghunko.github.io/assets/img/algorithms/shortest.png){:class="img-fluid"}
+
+![shortest.png](https://yeonghunko.github.io/assets/img/algorithms/shortest.png){:class="img-fluid"}
