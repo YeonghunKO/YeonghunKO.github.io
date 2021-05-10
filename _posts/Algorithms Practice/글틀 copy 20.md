@@ -42,4 +42,4 @@ print(x)
 
 - And you'll notice that this is indented at the same level as the print statement.
 
-![if](https://yeonghunko.github.io/assets/img/coursera-python/if.png){:class="img-fluid"}
+![shortest.png](https://yeonghunko.github.io/assets/img/algorithms/shortest.png){:class="img-fluid"}

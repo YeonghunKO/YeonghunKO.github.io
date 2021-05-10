@@ -24,8 +24,6 @@ toc_sticky: true
 
 s과 t를 넣은 다음 s의 각 글자가 t와 얼마나 떨어져있는지 알아보는 것이다. t사이에 글자가 있다면 가까운 t와 거리를 측정한다.
 
-그림을 그려가면서 해보면 더 쉽게 알 수 있다.
-
 ```javascript
 function shortest(s, t) {
   let answer = [];
@@ -53,3 +51,7 @@ function shortest(s, t) {
 }
 //  shortest('teachermode', 'e'); //  1 0 1 2 1 0 1 2 2 1 0
 ```
+
+그림을 그려가면서 해보면 더 쉽게 알 수 있다.
+
+![shortest.png](https://yeonghunko.github.io/assets/img/algorithms/shortest.png){:class="img-fluid"}

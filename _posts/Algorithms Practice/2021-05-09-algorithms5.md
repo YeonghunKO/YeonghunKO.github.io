@@ -42,6 +42,7 @@ function maxSum(arr) {
   let n = arr.length;
   let sum1 = (sum2 = 0);
 
+  // 가로 세로의 합을 구하고 비교를 통해 최대값 추출
   for (let i = 0; i < n; i++) {
     sum1 = sum2 = 0;
     for (let j = 0; j < n; j++) {
@@ -52,6 +53,7 @@ function maxSum(arr) {
 
   answer = Math.max(answer, sum1, sum2);
 
+  // 대각선의 합을 구하고 비교를 통해 최대값 추출
   for (let i = 0; i < n; i++) {
     sum1 = arr[i][i];
     sum2 = arr[i][n - i - 1];
