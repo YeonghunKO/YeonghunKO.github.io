@@ -1,6 +1,6 @@
 ---
-title: "<1> 코딩테스트 (프로그래머스 코딩테스트)"
-excerpt: ""
+title: "<30> 단어변환 (프로그래머스 코딩테스트)"
+excerpt: "bfs"
 
 categories:
   - Algorithms Practice
@@ -18,28 +18,113 @@ toc_sticky: true
 > 1. 나름대로 개념 정리.
 > 2. 각 개념에 따른 코드 정리.
 
-# 1. Week 3
+# 1. 단어 변환
+
+시작 단어가,target 단어, 단어배열이 주어질때 시작단어가 target단어로 변환해야하는데, 최소한의 단어만 바꿔서 변환한다고 할때 최소 몇단계를 거쳐야하는지 찾는 문제이다. 예를 들어 아래와 같은 변수가 주어졌다고 하자.
 
 ```javascript
-x = 2;
-x = x + 2;
-print(x);
+"hit", "cog", ["hot", "dot", "dog", "lot", "log", "cog"];
+
+이때 'hit' => hot => dot => dog => 'cog'
 ```
 
-```html
-x = 2 x = x + 2 print(x)
+처럼 변환이 가능하다. 알파벳 하나만 바꿔가면서 최소 cog까지 가는 데 얼마나 걸리는지 보는것이다. 여기선 4단계를 거쳐 가므로 4가 return 된다. 그럼 한번 구현해보자
+
+# 2. 접근 방법
+
+이것도 사실 어떻게 풀어나가야 할 지 몰라서 바로 답을 봤다.
+
+- pseudo code
+  - 우선 큐를 만든다. 그리고 각각의 단어를 방문했는지 알아보려고 visit 배열을 만들어준다.
+  - begin 과 0(단계를 알아보기 위한 숫자)을 큐에 넣는다.
+  - while문을 써서 본격적으로 큐를 통해 bfs를 실행한다.
+    - visit에 단어가 있다면 그 빠져나온다.
+    - 큐에서 저장된 단어들을 뺀다.
+    - target과 같으면 cnt를 return 한다.
+    - 그리고 words에 들어있는 각각의 단어와 큐에서 뺀 단어를 하나하나 비교해서 1개만 틀리다면 visit=true하고 큐에다가 그 단어와,cnt++을 push한다.
+    - 큐에 아무것도 없을 때 까지 반복한다.
+
+```javascript
+function solution(begin, target, words) {
+  if (!words.includes(target)) return 0;
+  let answer = 0;
+  const q = [];
+  const visit = [];
+
+  q.push([begin, answer]);
+
+  while (q.length) {
+    let [s, cnt] = q.shift();
+
+    if (s === target) return cnt;
+    words.forEach((w, i) => {
+      const idx = [...w].reduce((a, c, i) => {
+        // s와 w의 글자를 하나하나 비교했을 때 다른게 있으면 accumulate에 push하고 같은게 있으면 a를 그대로 넘겨줌
+        // 그리고 comma operator는 순서대로 연산하게끔 함.
+        // 즉 ternary를 실행하고 a를 리턴한다는 뜻.
+        // 아하!!!
+        // 그렇구먼
+        return c != s[i] ? a.push(i) : console.log("same? just pass!"), a;
+      }, []);
+
+      if ((idx.length = 1 && !visit[w])) {
+        visit[w] = true;
+        q.push([w, cnt++]);
+      }
+    });
+  }
+
+  return answer;
+}
 ```
 
-```css
-x = 2
-x = x + 2
-print(x)
+아따 세련되었다. 근데 여기서 디버거를 해보면 불필요한 looping이 발생한다는 것을 알 수 있다. reduce에서 발생한다! 큐에서 뽑아서 words안에 있는 단어랑 글자비교 할 때마다 매번 맨 앞에 있는 'hot'부터 하나씩 비교하는 것이다.
+
+그래서 생각해낸 방법은, visit안에 있는것은 그냥 넘어가고 한 번도 비교하지 않은것만 비교하자는 것이다. 그래서 아래의 코드를 추가했다.
+
+```javascript
+words.forEach((w, i) => {
+  [...w].reduce((a, c, i, wordsArr) => {
+    if (visit[w]) {
+      a.splice(1);
+      return a;
+    }
+
+    // 아래의 return 코드를 이렇게 바꿔도 됨
+    if (c != s[i]) {
+      a.push(i);
+      return a;
+    } else {
+      console.log("same? just pass!");
+      return a;
+    }
+
+    return c != s[i] ? a.push(i) : console.log("same? just pass!"), a;
+  });
+});
 ```
 
-## Week 3 영어문장 정리
+구글링을 해보았다. reduce early break. 찾아보니 pass되는 원본 Array를 자르면 자동으로 reduce가 끝나기 때문에 빠져나온다고 했다. 따라서 4번째 argument를 추가하고 splice를 해주고 return a를 해줌으로써 빠져나왔다.
 
-- So like I said, you can do interactive in Python or you can run a script.(Interactive: You type directly to python one line at a time and it responds.)
+그리고 ternary operator 끝에 왜 comma가 달리고 a적혀있는지 고민해보았다. 결국엔 comma는 순서대로 일을 처리할 때 사용하는 operator이다. 그래서 teranry를 실행하고 나서 a를 리턴한다는 뜻!
 
-- And you'll notice that this is indented at the same level as the print statement.
+그리고 ternary는 간단해보이지만 가독성이 살짝 떨어질 수 있기에 if/else문으로도 적어보았다!
 
-![shortest.png](https://yeonghunko.github.io/assets/img/algorithms/shortest.png){:class="img-fluid"}
+이로써 코드를 리팩토링하고 완벽하게 이해했다!! 그리고 새로운 문법도 배우고 다른 방식으로도 표현해보았다!! 그냥 한 마디로 찢은거다ㅋㅋㅋ 자랑스럽다!!
+
+그럼 debugging을 해보면서 과정을 출력해보면 아래와 같다
+
+```javascript
+ w    q
+hit  [hot]
+hot  [dot,lot] // w(hot)와 비교했을 때 한글자만 다른 단어들만 visit에 추가되고 q에 push됨
+dot  [lot,dog]
+lot  [dog,log]
+dog  [log]
+cog // return cnt!
+```
+
+# 3. 배운점
+
+1. 구글링을 역시나 잘 활용하는게 중요하다고 생각했다.
+2. 쓸데없이 반복되는 반복을 줄이거나 가독성을 높일 수 있는 방법이 없을까 항상 고민하고 질문하자!
